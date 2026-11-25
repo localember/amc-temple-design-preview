@@ -1,9 +1,14 @@
-# AMC Temple location homepage: Design preview, not live
+# AMC Temple location site: Design preview, not live
 
-Ticket AMC-2026-11-24-temple (Local Ember Design Worker 2, 2026-11-24 CT).
-Cookie-cutter location homepage for Temple, Texas, following the approved AMC main design direction (localember/amc-main-design-preview, Local Ember Alpine recolored to the AMC logo palette), using the same pattern as the Hewitt location preview.
+Ticket AMC-2026-11-25-temple-site-build. Full Temple location site on the Nov 25 location preview template (row 1058, Copperas Cove), including button hover, this location's live menu minus Home, a header that scrolls away, a sticky bottom bar on pages with hero buttons, and Short Answer stock images on service and condition pages.
 
-- Local NAP and city H1 for the Temple office (61 North Kegley Road, Temple, TX 76502, (254) 899-2225)
-- noindex,nofollow meta and robots.txt Disallow: /
-- Forms off: no form actions, inputs and buttons disabled, no tracking scripts
-- Not the live site. Not sent to the client. Waiting for a named thumbs-up before any Grok Build row.
+Content, NAP, phone, hours, specials, menu, team, and reviews are from https://www.temple.anthonychiro.com/.
+
+- noindex,nofollow on every page and robots.txt Disallow: /
+- Forms off
+- Service and condition pages follow the same catalog treatment as the Copperas Cove template, with Temple as the city
+- Blog: auto-accident-tips and sciatic-leg-pain are rewritten as the pattern; the other posts are placeholders at the live slugs
+- The AI disclaimer page is not included
+- Additional promotions is included because it is on this location's live menu
+- Review layer: assets/review-comments.js
+- Not the live site. Not sent to the client.
